@@ -1,0 +1,7 @@
+co\unicauca\justeat\commons\infra\Utilities.class
+co\unicauca\justeat\commons\domain\Plato.class
+co\unicauca\justeat\commons\infra\Parameter.class
+co\unicauca\justeat\commons\domain\Restaurant.class
+co\unicauca\justeat\commons\infra\Protocol.class
+co\unicauca\justeat\commons\domain\Menu.class
+co\unicauca\justeat\commons\infra\JsonError.class
