@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package co.unicauca.justeat.commons.infra;
 
 import java.io.FileInputStream;
@@ -11,9 +6,12 @@ import java.io.InputStream;
 import java.util.Properties;
 
 /**
- * Utilidades varias utilizadas por otras clases
  *
- * @author Libardo, Julio
+ * @author SANTIAGO MUÑOZ
+ *         KEVIN ALARCON
+ *         JUAN JOSE LOPEZ
+ *         SANTIAGO CORDOBA
+ *         DANIEL MUÑOZ
  */
 public class Utilities {
 
