@@ -12,14 +12,14 @@ import java.util.List;
  * @author SANTIAGO MUÑOZ
  */
 public class Restaurant {
-     private int resId;
+
+    private int resId;
     private int adminId;
     private String resNom;
     private String resDireccion;
     private String resCiudad;
     private String resTematicaComida;
     private List<Menu> listaMenus;
-    
 
     public Restaurant(int resId, int adminId, String resNom, String resDireccion, String resCiudad, String resTematicaComida) {
         this.resId = resId;
@@ -29,7 +29,8 @@ public class Restaurant {
         this.resCiudad = resCiudad;
         this.resTematicaComida = resTematicaComida;
     }
-    public Restaurant(){
+
+    public Restaurant() {
     }
 
     public int getResId() {
@@ -59,7 +60,7 @@ public class Restaurant {
     public List<Menu> getListaMenus() {
         return listaMenus;
     }
-    
+
     public void setResId(int resId) {
         this.resId = resId;
     }

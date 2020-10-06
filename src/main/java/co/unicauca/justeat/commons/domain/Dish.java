@@ -9,13 +9,13 @@ package co.unicauca.justeat.commons.domain;
  *
  * @author SANTIAGO MUÑOZ
  */
-public class Plato {
+public class Dish {
     private  int platoId;
     private String planNom;
     private String  placDesc;
     private int plaPrecio;
 
-    public Plato(int platoId, String planNom, String placDesc, int plaPrecio) {
+    public Dish(int platoId, String planNom, String placDesc, int plaPrecio) {
         this.platoId = platoId;
         this.planNom = planNom;
         this.placDesc = placDesc;

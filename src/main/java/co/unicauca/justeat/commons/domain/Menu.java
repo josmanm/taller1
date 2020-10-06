@@ -17,7 +17,7 @@ public class Menu {
     private int menuId;
     private String menuNom;
     private Date menuFecVi;
-    private List<Plato> listaPlatos;
+    private List<Dish> listaPlatos;
     
 
     public Menu(int menuId, String menuNom, Date menuFecVi) {
@@ -38,7 +38,7 @@ public class Menu {
         return menuFecVi;
     }
 
-    public List<Plato> getListaPlatos() {
+    public List<Dish> getListaPlatos() {
         return listaPlatos;
     }
     
@@ -54,7 +54,7 @@ public class Menu {
         this.menuFecVi = menuFecVi;
     }
 
-    public void setListaPlatos(Plato parPlato) {
+    public void setListaPlatos(Dish parPlato) {
         listaPlatos.add(parPlato) ;
     }
     
