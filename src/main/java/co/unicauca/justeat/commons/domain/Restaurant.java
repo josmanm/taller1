@@ -18,7 +18,7 @@ public class Restaurant {
     private String resDireccion;
     private String resCiudad;
     private String resTematicaComida;
-    private List<Menu> listaMenus;
+    //private List<Menu> listaMenus;
 
     public Restaurant(int resId, int adminId, String resNom, String resDireccion, String resCiudad, String resTematicaComida) {
         this.resId = resId;
@@ -56,9 +56,9 @@ public class Restaurant {
         return resTematicaComida;
     }
 
-    public List<Menu> getListaMenus() {
-        return listaMenus;
-    }
+//    public List<Menu> getListaMenus() {
+//        return listaMenus;
+//    }
 
     public void setResId(int resId) {
         this.resId = resId;
@@ -84,7 +84,7 @@ public class Restaurant {
         this.resTematicaComida = resTematicaComida;
     }
 
-    public void setListaMenus(Menu parMenu) {
-        listaMenus.add(parMenu);
-    }
+//    public void setListaMenus(Menu parMenu) {
+//        listaMenus.add(parMenu);
+//    }
 }
