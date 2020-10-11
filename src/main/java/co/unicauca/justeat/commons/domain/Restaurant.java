@@ -12,17 +12,17 @@ import java.util.List;
  */
 public class Restaurant {
 
-    private int resId;
-    private int adminId;
+    private String resId;
+    private String UserName;
     private String resNom;
     private String resDireccion;
     private String resCiudad;
     private String resTematicaComida;
     //private List<Menu> listaMenus;
 
-    public Restaurant(int resId, int adminId, String resNom, String resDireccion, String resCiudad, String resTematicaComida) {
+    public Restaurant(String resId, String UserName, String resNom, String resDireccion, String resCiudad, String resTematicaComida) {
         this.resId = resId;
-        this.adminId = adminId;
+        this.UserName = UserName;
         this.resNom = resNom;
         this.resDireccion = resDireccion;
         this.resCiudad = resCiudad;
@@ -32,14 +32,14 @@ public class Restaurant {
     public Restaurant() {
     }
 
-    public int getResId() {
+    public String getResId() {
         return resId;
     }
 
-    public int getAdminId() {
-        return adminId;
+    public String getUserName() {
+        return UserName;
     }
-
+    
     public String getResNom() {
         return resNom;
     }
@@ -60,14 +60,9 @@ public class Restaurant {
 //        return listaMenus;
 //    }
 
-    public void setResId(int resId) {
+    public void setResId(String resId) {
         this.resId = resId;
     }
-
-    public void setAdminId(int adminId) {
-        this.adminId = adminId;
-    }
-
     public void setResNom(String resNom) {
         this.resNom = resNom;
     }
@@ -83,8 +78,12 @@ public class Restaurant {
     public void setResTematicaComida(String resTematicaComida) {
         this.resTematicaComida = resTematicaComida;
     }
-
+    
 //    public void setListaMenus(Menu parMenu) {
 //        listaMenus.add(parMenu);
 //    }
+
+    public void setUserName(String UserName) {
+        this.UserName = UserName;
+    }
 }

@@ -13,19 +13,19 @@ import java.util.List;
  *         DANIEL MUÑOZ
  */
 public class Menu {
-    private int menuId;
+    private String menuId;
     private String menuNom;
     private Date menuFecVi;
     private List<Dish> listaPlatos;
     
 
-    public Menu(int menuId, String menuNom, Date menuFecVi) {
+    public Menu(String menuId, String menuNom, Date menuFecVi) {
         this.menuId = menuId;
         this.menuNom = menuNom;
         this.menuFecVi = menuFecVi;
     }
 
-    public int getMenuId() {
+    public String getMenuId() {
         return menuId;
     }
 
@@ -41,7 +41,7 @@ public class Menu {
         return listaPlatos;
     }
     
-    public void setMenuId(int menuId) {
+    public void setMenuId(String menuId) {
         this.menuId = menuId;
     }
 

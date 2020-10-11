@@ -9,48 +9,50 @@ package co.unicauca.justeat.commons.domain;
  *         DANIEL MUÑOZ
  */
 public class Dish {
-    private  int platoId;
-    private String planNom;
-    private String  placDesc;
-    private int plaPrecio;
+    private  String PlatoId;
+    private String PlanNom;
+    private String  PlaDesc;
+    private double PlaPrecio;
 
-    public Dish(int platoId, String planNom, String placDesc, int plaPrecio) {
-        this.platoId = platoId;
-        this.planNom = planNom;
-        this.placDesc = placDesc;
-        this.plaPrecio = plaPrecio;
+    public Dish(String platoId, String planNom, String placDesc, double plaPrecio) {
+        this.PlatoId = platoId;
+        this.PlanNom = planNom;
+        this.PlaDesc = placDesc;
+        this.PlaPrecio = plaPrecio;
     }
 
-    public int getPlatoId() {
-        return platoId;
+    public String getPlatoId() {
+        return PlatoId;
     }
 
     public String getPlanNom() {
-        return planNom;
+        return PlanNom;
     }
-
+    public String getPlaDesc(){
+        return PlaDesc;
+    }
     public String getPlacDesc() {
-        return placDesc;
+        return PlaDesc;
     }
 
-    public int getPlaPrecio() {
-        return plaPrecio;
+    public double getPlaPrecio() {
+        return PlaPrecio;
     }
 
-    public void setPlatoId(int platoId) {
-        this.platoId = platoId;
+    public void setPlatoId(String platoId) {
+        this.PlatoId = platoId;
     }
 
     public void setPlanNom(String planNom) {
-        this.planNom = planNom;
+        this.PlanNom = planNom;
     }
 
     public void setPlacDesc(String placDesc) {
-        this.placDesc = placDesc;
+        this.PlaDesc = placDesc;
     }
 
-    public void setPlaPrecio(int plaPrecio) {
-        this.plaPrecio = plaPrecio;
+    public void setPlaPrecio(double plaPrecio) {
+        this.PlaPrecio = plaPrecio;
     }
     
     
