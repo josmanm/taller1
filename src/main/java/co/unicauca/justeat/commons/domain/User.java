@@ -12,20 +12,23 @@ package co.unicauca.justeat.commons.domain;
 public class User {
     private String UserName;
     private String  UserContrasena;
+    private String UserNombre;
     private String  UserApellido;
     private String  UserCedula;
     private String UserCiudad;
     private String UserDireccion;
-    private String UsarCiudad;
-
-    public User(String UserName, String UserContrasena, String UserApellido, String UserCedula, String UserCiudad, String UserDireccion, String UsarCiudad) {
+    private String UserCelular;
+    
+    public User(){
+    } 
+    public User(String UserName, String UserContrasena, String UserApellido, String UserCedula, String UserCiudad, String UserDireccion, String UserCelular) {
         this.UserName = UserName;
         this.UserContrasena = UserContrasena;
         this.UserApellido = UserApellido;
         this.UserCedula = UserCedula;
         this.UserCiudad = UserCiudad;
         this.UserDireccion = UserDireccion;
-        this.UsarCiudad = UsarCiudad;
+        this.UserCelular = UserCelular;
     }
 
     public String getUserName() {
@@ -34,6 +37,10 @@ public class User {
 
     public String getUserContrasena() {
         return UserContrasena;
+    }
+
+    public String getUserNombre() {
+        return UserNombre;
     }
 
     public String getUserApellido() {
@@ -52,8 +59,8 @@ public class User {
         return UserDireccion;
     }
 
-    public String getUsarCiudad() {
-        return UsarCiudad;
+    public String getUserCelular() {
+        return UserCelular;
     }
 
     public void setUserName(String UserName) {
@@ -62,6 +69,10 @@ public class User {
 
     public void setUserContrasena(String UserContrasena) {
         this.UserContrasena = UserContrasena;
+    }
+
+    public void setUserNombre(String UserNombre) {
+        this.UserNombre = UserNombre;
     }
 
     public void setUserApellido(String UserApellido) {
@@ -80,8 +91,9 @@ public class User {
         this.UserDireccion = UserDireccion;
     }
 
-    public void setUsarCiudad(String UsarCiudad) {
-        this.UsarCiudad = UsarCiudad;
+    public void setUserCelular(String UserCelular) {
+        this.UserCelular = UserCelular;
     }
+
     
 }
