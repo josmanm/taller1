@@ -86,4 +86,16 @@ public class Restaurant {
     public void setUserName(String UserName) {
         this.UserName = UserName;
     }
+
+    @Override
+    public String toString() {
+        return "Restaurant: \n"
+                + "\nId: " + this.resId 
+                + "\nName: " + this.resNom
+                + "\nAddress: " + this.resDireccion
+                + "\nCity: " + this.resCiudad
+                + "\nTematica: " + this.resTematicaComida;
+    }
+    
+    
 }
