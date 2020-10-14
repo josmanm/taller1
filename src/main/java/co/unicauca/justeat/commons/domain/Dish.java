@@ -13,7 +13,9 @@ public class Dish {
     private String PlanNom;
     private String  PlaDesc;
     private double PlaPrecio;
-
+    
+    public Dish(){
+    }
     public Dish(String platoId, String planNom, String placDesc, double plaPrecio) {
         this.PlatoId = platoId;
         this.PlanNom = planNom;

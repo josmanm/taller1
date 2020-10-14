@@ -18,7 +18,8 @@ public class Menu {
     private Date menuFecVi;
     private List<Dish> listaPlatos;
     
-
+    public Menu(){
+    }
     public Menu(String menuId, String menuNom, Date menuFecVi) {
         this.menuId = menuId;
         this.menuNom = menuNom;
